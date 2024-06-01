@@ -1,7 +1,10 @@
 /**
-In this example, we have an Originator class (TextEditor) that has a text field and methods to set and get the text, as well as to save and restore the state of the text using a Memento object. The Memento class has a text field and a method to get the text. The Caretaker class (TextEditorHistory) maintains an array of Memento objects and has methods to save the state of the TextEditor and to undo the last state change.
+In this example, we have an Originator class (TextEditor) that has a text field and methods to set and get the text, 
+as well as to save and restore the state of the text using a Memento object. The Memento class has a text field and a method to get the text. 
+The Caretaker class (TextEditorHistory) maintains an array of Memento objects and has methods to save the state of the TextEditor and to undo the last state change.
 
-In the example usage, we create a TextEditor and a TextEditorHistory, set the text to "Hello, world!", save the state, set the text to "Goodbye, world!", save the state again, print the current text (which should be "Goodbye, world!"), undo the last state change, and print the text again (which should be "Hello, world!").
+In the example usage, we create a TextEditor and a TextEditorHistory, set the text to "Hello, world!", save the state, set the text to "Goodbye, world!", 
+save the state again, print the current text (which should be "Goodbye, world!"), undo the last state change, and print the text again (which should be "Hello, world!").
 */
 
 // Originator class
